@@ -1,0 +1,58 @@
+body {
+  padding: 0px 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+.container .navbar__logo {
+  font-weight: bold;
+  font-size: 30px;
+}
+.container .movies {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.container .movies__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 120px;
+}
+.container .movies__item h3 {
+  text-align: center;
+  margin: 5px;
+}
+.container .movies__item p {
+  margin: 5px;
+  max-width: 150px;
+  text-align: center;
+}
+.container .movies__item__picture {
+  width: 100%;
+}
+.container .movies__item__picture img {
+  width: 100%;
+  height: 135px;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
